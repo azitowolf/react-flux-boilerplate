@@ -35,7 +35,8 @@ flux-react-boilerplate
 		index.html
 	gulpfile.js
 	package.json
-	```
+
+```
 
 #### What's Going On
 
