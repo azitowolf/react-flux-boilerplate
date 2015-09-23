@@ -3,7 +3,7 @@
 
 ### Simple React-Flux-Boilerplate
 
-This is a Boilerplate local environment to get you started developing using React and Flux. 
+This is a Boilerplate local environment to get you started developing using React and Flux.
 
 #### Getting Started
 1. Navigate to flux-react-boilerplate, run `npm install`
@@ -13,6 +13,7 @@ This is a Boilerplate local environment to get you started developing using Reac
 
 #### File Structure:
 
+```
 flux-react-boilerplate
 	|
 	+ node_modules //all the required node modules
@@ -34,14 +35,15 @@ flux-react-boilerplate
 		index.html
 	gulpfile.js
 	package.json
+	```
 
 #### What's Going On
 
-The tasks we are Gulping are : 
+The tasks we are Gulping are :
 
 * Browserify, which builds in Node.js require functionality into the browser
 * Reactify, which includes react.js and also compiles JSX to its raw React form
 * Pipe, which feeds all our code into one file, main.js
 * Copy, which copies over our browser-compatible files into dist (index.html for the time being)
-* Vinyl-Stream, which turns our main.js readable stream from browserify into a vinyl stream which is what gulp is expecting to get. 
+* Vinyl-Stream, which turns our main.js readable stream from browserify into a vinyl stream which is what gulp is expecting to get.
 
