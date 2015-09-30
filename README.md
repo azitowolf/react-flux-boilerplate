@@ -6,9 +6,9 @@
 This is a Boilerplate local environment to get you started developing using React and Flux.
 
 #### Getting Started
-1. Navigate to flux-react-boilerplate, run `npm install`
-2. Run gulp. (if you dont have [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), go get it.)
-3. Navigate to /dist and start a local server (I would recommend this [handy node module](https://www.npmjs.com/package/http-server))
+1. Navigate to /flux-react-boilerplate in your terminal, and run `npm install`.
+2. Run gulp in the terminal with 'gulp'. (if you dont have [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), go get it.)
+3. Navigate to /dist and start a local server. (I would recommend the node package [http-server](https://www.npmjs.com/package/http-server))
 4. Open your app in browser.
 
 #### File Structure:
